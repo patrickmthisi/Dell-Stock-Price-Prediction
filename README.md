@@ -12,6 +12,11 @@ The following essential time series forecasting concepts are explored in this pr
     - Once the model is fitted, a rolling forecast method is applied, allowing for predictions to be made one step ahead. The model is updated iteratively using actual values.
 3. Model Evaluation:
     - The predicted values are compared to the actual values from the validation set.
-    - The Root Mean Squared Error (RMSE) is the metric for assessing the model's performance.
+    - The Root Mean Squared Error (RMSE) is the metric used to assess the model's performance.
     - Final predictions alongside the actual validation data are visualized.    
 4. Next Steps: The project also highlights potential future enhancements, such as exploring additional time series forecasting models. These may include classical approaches like SARIMA and more advanced methodologies involving CNNs and LSTMs.
+
+## Conclusion and further work
+In this comprehensive project, we developed an Exponential Smoothing State Space (ETS) model to forecast Dell's stock price. We compared the performance of the ETS model against a naive model, which served as our baseline model. The ETS model achieved a Root Mean Square Error (RMSE) of 4.168, which is closely aligned with the performance of the naive model. The top five ETS models exhibited only marginal differences, with RMSE values ranging from 4.168 to 4.173. In contrast, the top five naive models displayed greater variability, with RMSE values spanning from 4.169 to 5.837.
+
+Ultimately, we decided to proceed with the ETS model, reporting impressive performance using the out-of-sample validation dataset. The residuals of the model closely approximated a Gaussian distribution, as illustrated by the Q-Q plot. However, the overall performance of the ETS model did not meet our expectations for this dataset. As a result, future work could consider exploring other classical time-series models, such as SARIMA, or adapting advanced deep learning techniques like Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks.
