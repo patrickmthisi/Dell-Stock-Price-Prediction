@@ -7,7 +7,7 @@ https://www.kaggle.com/datasets/zongaobian/microsoft-stock-data-and-key-affiliat
 This comprehensive project aims to tease out various Holt-Winters configurations to identify which ones yield superior prediction performance for Dell's daily stock prices. This notebook is an extensive demonstration of a Holt-Winters ETS-based time series forecasting approach for Dell's stock prices, encompassing time series analysis, visualization, and performance evaluation using RMSE.
 
 The following essential time series forecasting concepts are explored in this project:
-1. Holt-Winters Modeling: The ETS (Error, Trend, Seasonality) model is utilized for forecasting. This process involves determining the optimal ETS parameters for level, trend, dampening, and seasonal effects, achieved through an automated search of historical data to identify the best parameters.
+1. Holt-Winters Modelling: The ETS (Error, Trend, Seasonality) model is utilized for forecasting. This process involves determining the optimal ETS parameters for level, trend, dampening, and seasonal effects, achieved through an automated search of historical data to identify the best parameters.
 2. Rolling Forecast: 
     - Once the model is fitted, a rolling forecast method is applied, allowing for predictions to be made one step ahead. The model is updated iteratively using actual values.
 3. Model Evaluation:
