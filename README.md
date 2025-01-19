@@ -3,6 +3,7 @@ The dataset consists of Dell's stock prices. For more information  about the dat
 
 https://www.kaggle.com/datasets/zongaobian/microsoft-stock-data-and-key-affiliated-companies?select=DELL_daily_data.csv.
 
+## Project description and objectives:
 
 This comprehensive project aims to tease out various Holt-Winters configurations to identify which ones yield superior prediction performance for Dell's daily stock prices. This notebook is an extensive demonstration of a Holt-Winters ETS-based time series forecasting approach for Dell's stock prices, encompassing time series analysis, visualization, and performance evaluation using RMSE.
 
